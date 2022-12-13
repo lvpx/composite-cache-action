@@ -22,4 +22,4 @@ runs:
     id: cache-save
     with:
       path: ${{ github.workspace }}/node_modules
-      key: cache-key-1
+      key: cache-key-2
