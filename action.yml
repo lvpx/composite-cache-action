@@ -18,7 +18,7 @@ runs:
     with:
       path: ${{ github.workspace }}/node_modules
       key: cache-key-3
-      restore-key: cache-key
+      restore-keys: cache-key
   - uses: actions/cache/save@700-actionscache-granular-cache-control
     id: cache-save
     with:
